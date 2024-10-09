@@ -17,7 +17,7 @@ export const Container = styled.div<{ $hasChild?: boolean }>`
   & .right {
     display: flex;
     gap: 10px;
-    min-width: 68px;
+    min-width: 80px;
     justify-content: flex-start;
   }
   padding-left: ${(p) => (p.$hasChild ? "20px" : "20px")};
